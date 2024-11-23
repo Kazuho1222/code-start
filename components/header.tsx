@@ -47,7 +47,8 @@ export default function Header() {
             </nav>
           </div>
           <div className="hidden md:flex md:items-center">
-            <Button>Get Started</Button>
+            <Button className="text-red-400 bg-transparent shadow-none hover:bg-slate-50 m-2">ログイン</Button>
+            <Button className="bg-red-400 hover:bg-red-700">会員登録</Button>
           </div>
           <div className="flex md:hidden">
             <DropdownMenu>
@@ -70,7 +71,10 @@ export default function Header() {
                   <Link href="#">Contact</Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem>
-                  <Button className="w-full">Get Started</Button>
+                  <Button className="w-full bg-white text-red-400  border border-current hover:bg-red-50">ログイン</Button>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                  <Button className="w-full bg-red-400 hover:bg-red-700">会員登録</Button>
                 </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
