@@ -18,6 +18,7 @@ CodeStart は、プログラミング初心者が実際の案件を通じてス�
 - フロントエンド : Next.js, React, TypeScript
 - スタイリング : TailwindCSS, shadcn/ui, shadcn/ui v0
 - バックエンド : Supabase
+- 認証機能 : Clerk
 
 ## 🚀 具体的な進捗・開発状況（To-Do リストやリリース予定日など）
 
