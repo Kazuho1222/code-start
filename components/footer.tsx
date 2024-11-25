@@ -24,7 +24,7 @@ export default function Footer() {
               >
                 <path d="M12 5.74C16.4 2.3 22.72 3.88 22.72 9.22C22.72 14.56 14.36 19.96 12 21C9.64 19.96 1.28 14.56 1.28 9.22C1.28 3.88 7.6 2.3 12 5.74Z" />
               </svg>
-              <span className="text-lg font-semibold">Your Company</span>
+              <span className="text-lg font-semibold">CodeStart</span>
             </Link>
             <p className="text-sm text-muted-foreground">
               Making the world a better place through constructing elegant hierarchies.
